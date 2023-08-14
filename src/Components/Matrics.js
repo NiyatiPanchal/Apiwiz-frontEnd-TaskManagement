@@ -134,7 +134,6 @@ const Matrics = ({ tasks }) => {
           alignItems="center"
           style={{ width: "100%", height: 300 }}
         >
-          {/* <Grid container justifyContent="center" alignItems="center"> */}
           {metricsData && (
             <Bar
               data={metricsData}
@@ -159,7 +158,6 @@ const Matrics = ({ tasks }) => {
             />
           )}
           <Info color={color}>Bar Diagram for Number of Task to Status</Info>
-          {/* </Grid> */}
         </Grid>
         <Grid
           item
@@ -170,7 +168,6 @@ const Matrics = ({ tasks }) => {
           alignItems="center"
           style={{ width: "100%", height: 300 }}
         >
-          {/* <Grid container justifyContent="center" alignItems="center"> */}
           {pieData && (
             <Pie
               data={pieData}
@@ -183,16 +180,11 @@ const Matrics = ({ tasks }) => {
                 maintainAspectRatio: false,
                 aspectRatio: 1,
               }}
-              // style={{
-              //   width: "100%",
-              //   height: 400,
-              // }}
               height="300px"
               width="300px"
             />
           )}
           <Info color={color}>Pie Chart for Total Effort based on Status</Info>
-          {/* </Grid> */}
         </Grid>
       </Grid>
     </Box>
