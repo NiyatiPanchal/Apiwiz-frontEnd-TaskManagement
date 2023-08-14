@@ -46,7 +46,7 @@ npm install
 npm start
 ```
 
-7. The server should now be running on http://localhost:3000.
+6. The server should now be running on http://localhost:3000.
 
 # Challanges
 
