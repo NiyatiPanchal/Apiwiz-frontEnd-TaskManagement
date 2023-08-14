@@ -51,3 +51,5 @@ npm start
 # Challanges
 
 One challenge I faced was overriding the default styles of the Datepicker component. Material-UI provides default styling to components, which sometimes interferes with our custom styles.
+
+Learned Drag and Drop functionality and Data Visulization in React Js.
