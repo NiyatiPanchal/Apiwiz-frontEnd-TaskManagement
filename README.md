@@ -1,5 +1,7 @@
 # Task Management Assignment - FrontEnd
 
+Deployed link for task-manager : https://task-management-frontend.netlify.app/
+
 ## Table of Contents
 
 <!--ts-->
